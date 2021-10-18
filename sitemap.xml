@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/post/</loc>
+    <loc>https://sintetech.com/post/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://sintetech.com/categories/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://sintetech.com/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://sintetech.com/tags/</loc>
   </url>
 </urlset>
