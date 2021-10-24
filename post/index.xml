@@ -44,7 +44,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;On-demand self-service&lt;/strong&gt;: a user of services can, independently, carry out the procurement of resources of cloud computing, like example storage space and server time,  as needed automatically without requiring human interaction with the service provider;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Broad network access&lt;/strong&gt;: capabilities are available over the internet, with standard API and with a different client (es smartphone, laptops, etc.);&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Resource pooling&lt;/strong&gt;: services and resources available on the provider, are organized in a multi-tenant model for serving different users, using both virtual than physical resources dynamically allocated to meet the needs of applications. The allocated resources are independent of physical location and users doesn&amp;rsquo;t have direct control over them but they can specify on a high level the geographical location;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resource pooling&lt;/strong&gt;: services and resources available on the provider, are organized in a multi-tenant model for serving different users, using both virtual than physical resources dynamically allocated to meet the needs of applications. The allocated resources are independent of physical location and users doesn’t have direct control over them but they can specify on a high level the geographical location;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Rapid elasticity&lt;/strong&gt;: the resources can be elastic provisioned, often also automatically, to ensure high scalability both outward and inward. From the users perspective, the resources look infinite, and it is given to them the opportunity to buy at any time;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Measured service&lt;/strong&gt;: a Cloud system, automatic monitoring and optimizing resources to use based on the type of service (es. Storage, compute, network bandwidth). Used resources can be monitored, controlled and connected ensuring transparency between users and providers.&lt;/li&gt;
 &lt;/ul&gt;
@@ -78,7 +78,7 @@
 &lt;li&gt;Management billing of the consumed services.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Moreover, the level of the impact depends also on the Cloud model that is adopted like Infrastructure as a Service (IaaS), Platform as a Service (PaaS) or Software as a Service (SaaS).&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./users-manage-vs-csp.png&#34; alt=&#34;Users manage vs CSP manages&#34;  title=&#34;USers manage vs Cloud Service Provider&#34;  /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://sintetech.com/users-manage-vs-csp.png&#34; alt=&#34;Users manage vs CSP manages&#34;  title=&#34;USers manage vs Cloud Service Provider&#34;  /&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;As we have seen, the introduction of cloud computing into the organization has an impact on roles, responsibilities, processes and measures. Without appropriate governance that provides guidelines for risks mitigation, delivering efficient services, the organizations can be in trouble and fail to achieve cost-saving and a good service offering level. The Cloud governance should operate and be integrated with the actual organization IT governance, extending this one with its characteristics.&lt;/p&gt;
@@ -89,7 +89,8 @@
 &lt;li&gt;ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=60545&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=60545&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;National Institute of Standards and Technology (Special Publication 500‐291)&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
+
+      </content:encoded>
     </item>
     
   </channel>
