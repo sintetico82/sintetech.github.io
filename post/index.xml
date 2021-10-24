@@ -13,8 +13,11 @@
       <pubDate>Sun, 24 Oct 2021 12:00:00 +0200</pubDate>
       
       <guid>https://sintetech.com/post/introduction-to-cloud-computing-governance/</guid>
-      <description>An introduction to the Cloud Computing adoption impact</description>
-      <content>&lt;p&gt;Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.&lt;/p&gt;
+      <category>cloud</category>
+      <category>Azure</category>
+      <category>governance</category>
+      <summary>An introduction to the Cloud Computing adoption impact</summary>
+      <description>&lt;p&gt;Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.&lt;/p&gt;
 &lt;p&gt;In this article, I would like to discuss the Cloud computing definition, opportunities and impacts on IT governance. After, we will follow a path that conducts us to build a Cloud computing governance, putting in evidence the principal aspects to consider during the adoption of the Cloud computing paradigm.&lt;/p&gt;
 &lt;h2 id=&#34;cloud-computing&#34;&gt;Cloud computing&lt;/h2&gt;
 &lt;p&gt;Cloud computing, or Cloud, it’s a paradigm of on-demand services from a provider to a client through the internet web.&lt;/p&gt;
@@ -84,7 +87,7 @@
 &lt;li&gt;ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=60545&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=60545&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;National Institute of Standards and Technology (Special Publication 500‐291)&lt;/li&gt;
 &lt;/ul&gt;
-</content>
+</description>
     </item>
     
   </channel>
