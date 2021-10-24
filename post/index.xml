@@ -1,19 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sintetico tech blog</title>
+    <title>Lello sintetico tech blog</title>
     <link>https://sintetech.com/post/</link>
     <description>Recent content on sintetico tech blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Oct 2021 12:00:00 +0200</lastBuildDate><atom:link href="https://sintetech.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduction to Cloud Computing governance</title>
+      <title>TEST Introduction to Cloud Computing governance</title>
       <link>https://sintetech.com/post/introduction-to-cloud-computing-governance/</link>
       <pubDate>Sun, 24 Oct 2021 12:00:00 +0200</pubDate>
       
       <guid>https://sintetech.com/post/introduction-to-cloud-computing-governance/</guid>
       <description>An introduction to the Cloud Computing adoption impact</description>
+      <content>&lt;p&gt;Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.&lt;/p&gt;
+&lt;p&gt;In this article, I would like to discuss the Cloud computing definition, opportunities and impacts on IT governance. After, we will follow a path that conducts us to build a Cloud computing governance, putting in evidence the principal aspects to consider during the adoption of the Cloud computing paradigm.&lt;/p&gt;
+&lt;h2 id=&#34;cloud-computing&#34;&gt;Cloud computing&lt;/h2&gt;
+&lt;p&gt;Cloud computing, or Cloud, it’s a paradigm of on-demand services from a provider to a client through the internet web.&lt;/p&gt;
+&lt;p&gt;This model allows to drastically simplify the management of the IT systems, transforming the physical infrastructure to virtual services available on needed consume.&lt;/p&gt;
+&lt;p&gt;Today, we can identify these typologies of cloud computing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Public cloud&lt;/strong&gt;: claimed and managed by specialized organizations in the cloud. They supply through the internet computing resources. Microsoft Azure, Amazon AWS, Google Cloud Platform, are examples of public cloud;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Private cloud&lt;/strong&gt;: a private cloud is referring to resources of cloud computing only from one company or association. A private cloud can be site in the company Data Center;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hybrid cloud&lt;/strong&gt;: these types o cloud, unify public and private cloud. They allow moving data and workloads from the private and public cloud.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-opportunities-of-cloud-computing&#34;&gt;The opportunities of Cloud computing&lt;/h2&gt;
+&lt;p&gt;Cloud computing offers various advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cost calibration&lt;/strong&gt;: using service models like IaaS, PaaS and SaaS, the companies can adjust their cost on the resources used (pay for use). Furthermore, you can reduce the compressive cost connected to the physical Data Center location on-premises (rent, power, physical security and others);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: the main public Cloud provider offers a very high level of security for their system. They continuous make security updates on their platform (if you use the PaaS or SaaS model), guarantee the physical security of their Data Center, advance technologies for data protection, and usually, are compliant with the most important security standards;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: it’s one of the most strong features of the Cloud. The cloud allows you to scale up your resource theoretically infinitely when the resources demand are growing;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliability and availability&lt;/strong&gt;: the cloud enables the possibility to make services with a high level of reliability and business continuity;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt;: it makes easy access to modern and innovative technologies to use within your services.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features-of-cloud-service&#34;&gt;Features of cloud service&lt;/h2&gt;
+&lt;p&gt;To better understand what are the impacts on IT governance, we need to identify which are the features of Cloud computing services. The &lt;em&gt;National Institute of Standards and Technology&lt;/em&gt; (NIST) define six different features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;On-demand self-service&lt;/strong&gt;: a user of services can, independently, carry out the procurement of resources of cloud computing, like example storage space and server time,  as needed automatically without requiring human interaction with the service provider;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Broad network access&lt;/strong&gt;: capabilities are available over the internet, with standard API and with a different client (es smartphone, laptops, etc.);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resource pooling&lt;/strong&gt;: services and resources available on the provider, are organized in a multi-tenant model for serving different users, using both virtual than physical resources dynamically allocated to meet the needs of applications. The allocated resources are independent of physical location and users doesn&amp;rsquo;t have direct control over them but they can specify on a high level the geographical location;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rapid elasticity&lt;/strong&gt;: the resources can be elastic provisioned, often also automatically, to ensure high scalability both outward and inward. From the users perspective, the resources look infinite, and it is given to them the opportunity to buy at any time;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measured service&lt;/strong&gt;: a Cloud system, automatic monitoring and optimizing resources to use based on the type of service (es. Storage, compute, network bandwidth). Used resources can be monitored, controlled and connected ensuring transparency between users and providers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;impact-on-the-it-governance&#34;&gt;Impact on the IT governance&lt;/h2&gt;
+&lt;p&gt;Now that we know the features of cloud computing, what is the impact on IT governance? These features introduce some consideration about traditional service administration and management on-premises.&lt;/p&gt;
+&lt;h3 id=&#34;on-demand-self-service&#34;&gt;On-demand self-service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The organization can accelerate the application deployment process.&lt;/li&gt;
+&lt;li&gt;The easy access to the demand for new resources involves more control over cost budget, management and tracking of their use.&lt;/li&gt;
+&lt;li&gt;The hardware lifecycle it demanded to the cloud service provider.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;broad-network-access&#34;&gt;Broad network access&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication and authorization impact.&lt;/li&gt;
+&lt;li&gt;IAM management and integration with organization authorization.&lt;/li&gt;
+&lt;li&gt;Communication between the cloud service provider and IT member of the organization.&lt;/li&gt;
+&lt;li&gt;Operational Level Agreements (OLAs)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;resource-pooling&#34;&gt;Resource pooling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Security.&lt;/li&gt;
+&lt;li&gt;Legal aspect to be compliant with local law.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rapid-elasticity&#34;&gt;Rapid elasticity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;With the easy and virtual infinity possibility of resource demand, great attention is putting on cost budget.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;measured-service&#34;&gt;Measured service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Service Level Agreements (SLAs)&lt;/li&gt;
+&lt;li&gt;Management billing of the consumed services.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Moreover, the level of the impact depends also on the Cloud model that is adopted like Infrastructure as a Service (IaaS), Platform as a Service (PaaS) or Software as a Service (SaaS).&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./users-manage-vs-csp.png&#34; alt=&#34;Users manage vs CSP manages&#34;  title=&#34;USers manage vs Cloud Service Provider&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;As we have seen, the introduction of cloud computing into the organization has an impact on roles, responsibilities, processes and measures. Without appropriate governance that provides guidelines for risks mitigation, delivering efficient services, the organizations can be in trouble and fail to achieve cost-saving and a good service offering level. The Cloud governance should operate and be integrated with the actual organization IT governance, extending this one with its characteristics.&lt;/p&gt;
+&lt;p&gt;Now that we know what are the impacts on IT governance, we can try to understand how to build a Cloud computing governance. We will see how in the next articles.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ISO/IEC 17788:2014: Information Technology – Cloud Computing – Overview and Vocabulary; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=605455&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=605455&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=60545&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=60545&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;National Institute of Standards and Technology (Special Publication 500‐291)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
   </channel>
