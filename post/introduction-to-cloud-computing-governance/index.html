@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Introduction to Cloud Computing governance | sintetico tech blog</title>
+
+<meta name="keywords" content="cloud, Azure, governance" />
+<meta name="description" content="An introduction to the Cloud Computing adoption impact">
+<meta name="author" content="Stefano Ceci">
+<link rel="canonical" href="https://sintetech.com/post/introduction-to-cloud-computing-governance/" />
+<link href="/assets/css/stylesheet.min.746a86b58bb2b052b5e4df8216510494f04f81e62c08d626150c26c69ca929da.css" integrity="sha256-dGqGtYuysFK15N&#43;CFlEElPBPgeYsCNYmFQwmxpypKdo=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://sintetech.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sintetech.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sintetech.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://sintetech.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://sintetech.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.88.1" />
+
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"lang":"en","floatingPreferencesButtonDisplay":false,"siteId":2378094,"countryDetection":true,"cookiePolicyId":17714415, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};
+    </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CDR7Y1JXZX"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-CDR7Y1JXZX', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Introduction to Cloud Computing governance" />
+<meta property="og:description" content="An introduction to the Cloud Computing adoption impact" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sintetech.com/post/introduction-to-cloud-computing-governance/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-10-24T12:00:00&#43;02:00" />
+<meta property="article:modified_time" content="2021-10-24T12:00:00&#43;02:00" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introduction to Cloud Computing governance"/>
+<meta name="twitter:description" content="An introduction to the Cloud Computing adoption impact"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "",
+      "item": "https://sintetech.com/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Introduction to Cloud Computing governance",
+      "item": "https://sintetech.com/post/introduction-to-cloud-computing-governance/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Introduction to Cloud Computing governance",
+  "name": "Introduction to Cloud Computing governance",
+  "description": "An introduction to the Cloud Computing adoption impact",
+  "keywords": [
+    "cloud", "Azure", "governance"
+  ],
+  "articleBody": "Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.\nIn this article, I would like to discuss the Cloud computing definition, opportunities and impacts on IT governance. After, we will follow a path that conducts us to build a Cloud computing governance, putting in evidence the principal aspects to consider during the adoption of the Cloud computing paradigm.\nCloud computing Cloud computing, or Cloud, it’s a paradigm of on-demand services from a provider to a client through the internet web.\nThis model allows to drastically simplify the management of the IT systems, transforming the physical infrastructure to virtual services available on needed consume.\nToday, we can identify these typologies of cloud computing:\n Public cloud: claimed and managed by specialized organizations in the cloud. They supply through the internet computing resources. Microsoft Azure, Amazon AWS, Google Cloud Platform, are examples of public cloud; Private cloud: a private cloud is referring to resources of cloud computing only from one company or association. A private cloud can be site in the company Data Center; Hybrid cloud: these types o cloud, unify public and private cloud. They allow moving data and workloads from the private and public cloud.  The opportunities of Cloud computing Cloud computing offers various advantages:\n Cost calibration: using service models like IaaS, PaaS and SaaS, the companies can adjust their cost on the resources used (pay for use). Furthermore, you can reduce the compressive cost connected to the physical Data Center location on-premises (rent, power, physical security and others); Security: the main public Cloud provider offers a very high level of security for their system. They continuous make security updates on their platform (if you use the PaaS or SaaS model), guarantee the physical security of their Data Center, advance technologies for data protection, and usually, are compliant with the most important security standards; Flexibility: it’s one of the most strong features of the Cloud. The cloud allows you to scale up your resource theoretically infinitely when the resources demand are growing; Reliability and availability: the cloud enables the possibility to make services with a high level of reliability and business continuity; Innovation: it makes easy access to modern and innovative technologies to use within your services.  Features of cloud service To better understand what are the impacts on IT governance, we need to identify which are the features of Cloud computing services. The National Institute of Standards and Technology (NIST) define six different features:\n On-demand self-service: a user of services can, independently, carry out the procurement of resources of cloud computing, like example storage space and server time, as needed automatically without requiring human interaction with the service provider; Broad network access: capabilities are available over the internet, with standard API and with a different client (es smartphone, laptops, etc.); Resource pooling: services and resources available on the provider, are organized in a multi-tenant model for serving different users, using both virtual than physical resources dynamically allocated to meet the needs of applications. The allocated resources are independent of physical location and users doesn’t have direct control over them but they can specify on a high level the geographical location; Rapid elasticity: the resources can be elastic provisioned, often also automatically, to ensure high scalability both outward and inward. From the users perspective, the resources look infinite, and it is given to them the opportunity to buy at any time; Measured service: a Cloud system, automatic monitoring and optimizing resources to use based on the type of service (es. Storage, compute, network bandwidth). Used resources can be monitored, controlled and connected ensuring transparency between users and providers.  Impact on the IT governance Now that we know the features of cloud computing, what is the impact on IT governance? These features introduce some consideration about traditional service administration and management on-premises.\nOn-demand self-service  The organization can accelerate the application deployment process. The easy access to the demand for new resources involves more control over cost budget, management and tracking of their use. The hardware lifecycle it demanded to the cloud service provider.  Broad network access  Authentication and authorization impact. IAM management and integration with organization authorization. Communication between the cloud service provider and IT member of the organization. Operational Level Agreements (OLAs)  Resource pooling  Security. Legal aspect to be compliant with local law.  Rapid elasticity  With the easy and virtual infinity possibility of resource demand, great attention is putting on cost budget.  Measured service  Service Level Agreements (SLAs) Management billing of the consumed services.  Moreover, the level of the impact depends also on the Cloud model that is adopted like Infrastructure as a Service (IaaS), Platform as a Service (PaaS) or Software as a Service (SaaS).\nConclusion As we have seen, the introduction of cloud computing into the organization has an impact on roles, responsibilities, processes and measures. Without appropriate governance that provides guidelines for risks mitigation, delivering efficient services, the organizations can be in trouble and fail to achieve cost-saving and a good service offering level. The Cloud governance should operate and be integrated with the actual organization IT governance, extending this one with its characteristics.\nNow that we know what are the impacts on IT governance, we can try to understand how to build a Cloud computing governance. We will see how in the next articles.\nReferences  ISO/IEC 17788:2014: Information Technology – Cloud Computing – Overview and Vocabulary; (www.iso.org/iso/catalogue_detail?csnumber=605455) ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (www.iso.org/iso/catalogue_detail?csnumber=60545) National Institute of Standards and Technology (Special Publication 500‐291)  ",
+  "wordCount" : "931",
+  "inLanguage": "en",
+  "datePublished": "2021-10-24T12:00:00+02:00",
+  "dateModified": "2021-10-24T12:00:00+02:00",
+  "author":{
+    "@type": "Person",
+    "name": "Stefano Ceci"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sintetech.com/post/introduction-to-cloud-computing-governance/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "sintetico tech blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sintetech.com/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    </style>
+
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://sintetech.com/" accesskey="h" title="sintetico tech blog (Alt + H)">sintetico tech blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                
+                
+            </span>
+        </div>
+        <ul id="menu" onscroll="menu_on_scroll()"></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+
+    <h1 class="post-title">
+      Introduction to Cloud Computing governance
+    </h1>
+    <div class="post-description">
+      An introduction to the Cloud Computing adoption impact
+    </div>
+    <div class="post-meta">
+
+October 24, 2021&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Stefano Ceci
+
+
+</div>
+  </header> 
+
+  <div class="post-content">
+<p>Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.</p>
+<p>In this article, I would like to discuss the Cloud computing definition, opportunities and impacts on IT governance. After, we will follow a path that conducts us to build a Cloud computing governance, putting in evidence the principal aspects to consider during the adoption of the Cloud computing paradigm.</p>
+<h2 id="cloud-computing">Cloud computing<a hidden class="anchor" aria-hidden="true" href="#cloud-computing">#</a></h2>
+<p>Cloud computing, or Cloud, it’s a paradigm of on-demand services from a provider to a client through the internet web.</p>
+<p>This model allows to drastically simplify the management of the IT systems, transforming the physical infrastructure to virtual services available on needed consume.</p>
+<p>Today, we can identify these typologies of cloud computing:</p>
+<ul>
+<li><strong>Public cloud</strong>: claimed and managed by specialized organizations in the cloud. They supply through the internet computing resources. Microsoft Azure, Amazon AWS, Google Cloud Platform, are examples of public cloud;</li>
+<li><strong>Private cloud</strong>: a private cloud is referring to resources of cloud computing only from one company or association. A private cloud can be site in the company Data Center;</li>
+<li><strong>Hybrid cloud</strong>: these types o cloud, unify public and private cloud. They allow moving data and workloads from the private and public cloud.</li>
+</ul>
+<h2 id="the-opportunities-of-cloud-computing">The opportunities of Cloud computing<a hidden class="anchor" aria-hidden="true" href="#the-opportunities-of-cloud-computing">#</a></h2>
+<p>Cloud computing offers various advantages:</p>
+<ul>
+<li><strong>Cost calibration</strong>: using service models like IaaS, PaaS and SaaS, the companies can adjust their cost on the resources used (pay for use). Furthermore, you can reduce the compressive cost connected to the physical Data Center location on-premises (rent, power, physical security and others);</li>
+<li><strong>Security</strong>: the main public Cloud provider offers a very high level of security for their system. They continuous make security updates on their platform (if you use the PaaS or SaaS model), guarantee the physical security of their Data Center, advance technologies for data protection, and usually, are compliant with the most important security standards;</li>
+<li><strong>Flexibility</strong>: it’s one of the most strong features of the Cloud. The cloud allows you to scale up your resource theoretically infinitely when the resources demand are growing;</li>
+<li><strong>Reliability and availability</strong>: the cloud enables the possibility to make services with a high level of reliability and business continuity;</li>
+<li><strong>Innovation</strong>: it makes easy access to modern and innovative technologies to use within your services.</li>
+</ul>
+<h2 id="features-of-cloud-service">Features of cloud service<a hidden class="anchor" aria-hidden="true" href="#features-of-cloud-service">#</a></h2>
+<p>To better understand what are the impacts on IT governance, we need to identify which are the features of Cloud computing services. The <em>National Institute of Standards and Technology</em> (NIST) define six different features:</p>
+<ul>
+<li><strong>On-demand self-service</strong>: a user of services can, independently, carry out the procurement of resources of cloud computing, like example storage space and server time,  as needed automatically without requiring human interaction with the service provider;</li>
+<li><strong>Broad network access</strong>: capabilities are available over the internet, with standard API and with a different client (es smartphone, laptops, etc.);</li>
+<li><strong>Resource pooling</strong>: services and resources available on the provider, are organized in a multi-tenant model for serving different users, using both virtual than physical resources dynamically allocated to meet the needs of applications. The allocated resources are independent of physical location and users doesn&rsquo;t have direct control over them but they can specify on a high level the geographical location;</li>
+<li><strong>Rapid elasticity</strong>: the resources can be elastic provisioned, often also automatically, to ensure high scalability both outward and inward. From the users perspective, the resources look infinite, and it is given to them the opportunity to buy at any time;</li>
+<li><strong>Measured service</strong>: a Cloud system, automatic monitoring and optimizing resources to use based on the type of service (es. Storage, compute, network bandwidth). Used resources can be monitored, controlled and connected ensuring transparency between users and providers.</li>
+</ul>
+<h2 id="impact-on-the-it-governance">Impact on the IT governance<a hidden class="anchor" aria-hidden="true" href="#impact-on-the-it-governance">#</a></h2>
+<p>Now that we know the features of cloud computing, what is the impact on IT governance? These features introduce some consideration about traditional service administration and management on-premises.</p>
+<h3 id="on-demand-self-service">On-demand self-service<a hidden class="anchor" aria-hidden="true" href="#on-demand-self-service">#</a></h3>
+<ul>
+<li>The organization can accelerate the application deployment process.</li>
+<li>The easy access to the demand for new resources involves more control over cost budget, management and tracking of their use.</li>
+<li>The hardware lifecycle it demanded to the cloud service provider.</li>
+</ul>
+<h3 id="broad-network-access">Broad network access<a hidden class="anchor" aria-hidden="true" href="#broad-network-access">#</a></h3>
+<ul>
+<li>Authentication and authorization impact.</li>
+<li>IAM management and integration with organization authorization.</li>
+<li>Communication between the cloud service provider and IT member of the organization.</li>
+<li>Operational Level Agreements (OLAs)</li>
+</ul>
+<h3 id="resource-pooling">Resource pooling<a hidden class="anchor" aria-hidden="true" href="#resource-pooling">#</a></h3>
+<ul>
+<li>Security.</li>
+<li>Legal aspect to be compliant with local law.</li>
+</ul>
+<h3 id="rapid-elasticity">Rapid elasticity<a hidden class="anchor" aria-hidden="true" href="#rapid-elasticity">#</a></h3>
+<ul>
+<li>With the easy and virtual infinity possibility of resource demand, great attention is putting on cost budget.</li>
+</ul>
+<h3 id="measured-service">Measured service<a hidden class="anchor" aria-hidden="true" href="#measured-service">#</a></h3>
+<ul>
+<li>Service Level Agreements (SLAs)</li>
+<li>Management billing of the consumed services.</li>
+</ul>
+<p>Moreover, the level of the impact depends also on the Cloud model that is adopted like Infrastructure as a Service (IaaS), Platform as a Service (PaaS) or Software as a Service (SaaS).</p>
+<p><img loading="lazy" src="./users-manage-vs-csp.png" alt="Users manage vs CSP manages"  title="USers manage vs Cloud Service Provider"  />
+</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>As we have seen, the introduction of cloud computing into the organization has an impact on roles, responsibilities, processes and measures. Without appropriate governance that provides guidelines for risks mitigation, delivering efficient services, the organizations can be in trouble and fail to achieve cost-saving and a good service offering level. The Cloud governance should operate and be integrated with the actual organization IT governance, extending this one with its characteristics.</p>
+<p>Now that we know what are the impacts on IT governance, we can try to understand how to build a Cloud computing governance. We will see how in the next articles.</p>
+<h2 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h2>
+<ul>
+<li>ISO/IEC 17788:2014: Information Technology – Cloud Computing – Overview and Vocabulary; (<a href="http://www.iso.org/iso/catalogue_detail?csnumber=605455">www.iso.org/iso/catalogue_detail?csnumber=605455</a>)</li>
+<li>ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (<a href="http://www.iso.org/iso/catalogue_detail?csnumber=60545">www.iso.org/iso/catalogue_detail?csnumber=60545</a>)</li>
+<li>National Institute of Standards and Technology (Special Publication 500‐291)</li>
+</ul>
+
+</div>
+  <footer class="post-footer">
+    
+    <hr/>
+	<p><a href="" id="series"></a>This is a post in the 
+	<b>Cloud governance</b> series.<br/>
+	Other posts in this series:</p>
+
+    
+    
+    <ul class="series">
+    
+    	<li>Oct 24, 2021 -
+    	<a href="https://sintetech.com/post/introduction-to-cloud-computing-governance/">Introduction to Cloud Computing governance</a></li>
+    
+    </ul>
+    <br />
+ 
+    <ul class="post-tags">
+      <li><a href="https://sintetech.com/tags/cloud/">cloud</a></li>
+      <li><a href="https://sintetech.com/tags/azure/">Azure</a></li>
+      <li><a href="https://sintetech.com/tags/governance/">governance</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://sintetech.com/">sintetico tech blog</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+    <span>&middot;</span>
+    <span> <a href="https://www.iubenda.com/privacy-policy/17714415" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+</body>
+
+</html>

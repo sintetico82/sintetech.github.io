@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on sintetico tech blog</title>
+    <link>https://sintetech.com/series/</link>
+    <description>Recent content in Series on sintetico tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Oct 2021 12:00:00 +0200</lastBuildDate><atom:link href="https://sintetech.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud governance</title>
+      <link>https://sintetech.com/series/cloud-governance/</link>
+      <pubDate>Sun, 24 Oct 2021 12:00:00 +0200</pubDate>
+      
+      <guid>https://sintetech.com/series/cloud-governance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
