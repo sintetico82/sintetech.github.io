@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sintetico tech blog</title>
     <link>https://sintetech.com/post/</link>
@@ -16,8 +18,8 @@
       <category>cloud</category>
       <category>Azure</category>
       <category>governance</category>
-      <summary>An introduction to the Cloud Computing adoption impact</summary>
-      <description>&lt;p&gt;Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.&lt;/p&gt;
+      <description>An introduction to the Cloud Computing adoption impact</description>
+      <content:encoded>&lt;p&gt;Every day, more and more new organizations decide to adopt the Cloud Computing paradigm. The adoption of this paradigm imposes some changes in company organizations, introducing new challenges and opportunities.&lt;/p&gt;
 &lt;p&gt;In this article, I would like to discuss the Cloud computing definition, opportunities and impacts on IT governance. After, we will follow a path that conducts us to build a Cloud computing governance, putting in evidence the principal aspects to consider during the adoption of the Cloud computing paradigm.&lt;/p&gt;
 &lt;h2 id=&#34;cloud-computing&#34;&gt;Cloud computing&lt;/h2&gt;
 &lt;p&gt;Cloud computing, or Cloud, it’s a paradigm of on-demand services from a provider to a client through the internet web.&lt;/p&gt;
@@ -87,7 +89,7 @@
 &lt;li&gt;ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=60545&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=60545&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;National Institute of Standards and Technology (Special Publication 500‐291)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+</content:encoded>
     </item>
     
   </channel>
