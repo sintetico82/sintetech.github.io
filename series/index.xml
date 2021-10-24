@@ -5,7 +5,6 @@
     <link>https://sintetech.com/series/</link>
     <description>Recent content in Series on sintetico tech blog</description>
     <generator>Hugo -- gohugo.io</generator>
-<<<<<<< HEAD
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Oct 2021 12:00:00 +0200</lastBuildDate><atom:link href="https://sintetech.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -17,8 +16,5 @@
       <description></description>
     </item>
     
-=======
-    <language>en-us</language><atom:link href="https://sintetech.com/series/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> b0a9bc066e5ca80d5859fc8a7d41b898a700af4c
   </channel>
 </rss>
