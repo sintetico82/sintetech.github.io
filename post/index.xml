@@ -93,5 +93,80 @@
       </content:encoded>
     </item>
     
+    <item>
+      <title>Principles of Cloud Computing governance</title>
+      <link>https://sintetech.com/post/principles-cloud-computing-governance/</link>
+      <pubDate>Sat, 23 Oct 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://sintetech.com/post/principles-cloud-computing-governance/</guid>
+      <category>cloud</category>
+      <category>governance</category>
+      <description>Everything starts from the principles. What are good principles for Cloud governance?</description>
+      <content:encoded>
+        &lt;p&gt;From a high level, the governance goal is to ensure that we are doing the right things in the right way. The questions we are trying to ask are the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Are we doing the right thing?&lt;/li&gt;
+&lt;li&gt;Are we doing it in the right way?&lt;/li&gt;
+&lt;li&gt;How we can understand it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cloud computing governance it’s a comprehensive view of IT governance focused on responsibility, the definitions of the right decision and the balance between benefit/value. Risk and resources inside a Cloud ecosystem.
+The governance helps us to ensure that every expense relative to the Cloud are aligned with business objectives, it promotes data integrity, foster technology innovation and mitigate the risk of data loss or not compliance.&lt;/p&gt;
+&lt;p&gt;We can say that Cloud governance it’s an extension of IT governance, something we need to integrate into the existing one inside the organization and not replace.&lt;/p&gt;
+&lt;p&gt;We need to distingue between governance and management because sometimes we can confuse them. Governance defines the strategic direction and establishes an enabling system inside the organization. Management, use the governance enabling system to put in place the strategic direction of the governance.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;governance-vs-management.png#center&#34; alt=&#34;Governance vs Management&#34;  title=&#34;Governance vs management&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;principles-of-it-governance-the-bases-for-the-cloud-governance&#34;&gt;Principles of IT governance, the bases for the Cloud governance&lt;/h2&gt;
+&lt;p&gt;Every governance starts from principles.  Also for cloud governance is necessary to define adequate principles. One good start point is from the ISO/IEC standard 38500 (Information technology — Governance of IT for the organization); it shows six principles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsibility: the responsibility of the use of the IT system, should be assigned clearly to individuals o groups;&lt;/li&gt;
+&lt;li&gt;Strategy: the organization business strategy, from a high level, should consider and define the IT direction, given the base for a correct alignment of activities with the organization need;&lt;/li&gt;
+&lt;li&gt;Acquisition: the decisions to invest and get IT assets should be taken considering valid reasons and success factors. These factors are not only for managing the ongoing business but they should consider future changes and challenges;&lt;/li&gt;
+&lt;li&gt;Performance: the IT service demand and capacity both for day by day operation than for new system development should be balanced for ensuring a good level of performance;&lt;/li&gt;
+&lt;li&gt;Conformance: all the policies and practices, internal or external, relative to the IT use must be formally identified, defined, clearly communicated, implemented and enforced;&lt;/li&gt;
+&lt;li&gt;Human behaviour: people inside the process, IT policies, practices and decisions, must be always respected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nowadays, there are many IT governance frameworks, among which the most important are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TOGAF 9.1: it’s an Open Group standard. The framework provides guidelines of governance for enterprise architecture;&lt;/li&gt;
+&lt;li&gt;COBIT 5: it’s a framework for IT governance;&lt;/li&gt;
+&lt;li&gt;ITIL v3: it defines guidelines for governance of services management. It’s very important for cloud computing governance;&lt;/li&gt;
+&lt;li&gt;The Open Group SOA Governance Framework: it provides guidelines of governance for service-oriented architecture.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;framework-landscape.jpg#center&#34; alt=&#34;Governance framework landscape&#34;  title=&#34;Governance framework landscape&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Cloud computing governance is intended as a subset of IT governance and Enterprise Architecture governance. It contains all the unique features that are essential for Cloud governance.&lt;/p&gt;
+&lt;h2 id=&#34;principles-of-cloud-governance&#34;&gt;Principles of cloud governance&lt;/h2&gt;
+&lt;p&gt;The principles drive the design of the Cloud governance and define the behaviour. The principles, give a thread and a common theme for the decision relative to Cloud, providing a compass to the accountable people of all levels of the organization.
+Standard ISO 38500  Corporate Governance of Information Technology, as we have seen, defines six fundamental principles: responsibility, strategy, acquisition, performance, conformance, human behaviour. These principles are the best practices internationally recognized and they should be the constituent basis during the compilation of specific cloud governance principles for each company. Criteria for building efficient principles can be different for each organization because each organization can be very different, but there are principles that every organization that use Cloud services should strongly keep in mind: compliance with policies and standard, business goals must guide the Cloud strategy, contracts between the participating entities of the Cloud ecosystem, adopt well-defined change management processes, application of monitoring processes to achieve continuous improvement.&lt;/p&gt;
+&lt;h4 id=&#34;compliance-with-policies-and-standard&#34;&gt;Compliance with policies and standard&lt;/h4&gt;
+&lt;p&gt;Cloud standards should be open, consistent and complementary to the main sector standard and adopted from the big company.
+The Cloud ecosystem has a broad range of services partners and suppliers. If you look at &lt;a href=&#34;https://landscape.cncf.io&#34;&gt;https://landscape.cncf.io&lt;/a&gt; you can have an idea of the vast range. The compliance to standards and policies ensure a consistent approach, integrated and complete in the ecosystem for preventing, mitigate and dealing with a specific risk of cloud solutions (including security, business continuity, etc…).
+Using open standard give a great benefit in term of interoperability, often a fundamental need in a Cloud environment. This also allows to don’t lock with one single provider but they give the freedom to migrate or combine different providers.&lt;/p&gt;
+&lt;h4 id=&#34;business-goals-must-guide-the-cloud-strategy&#34;&gt;Business goals must guide the Cloud strategy&lt;/h4&gt;
+&lt;p&gt;Cloud strategy should be integrated with organization and global IT  strategy.
+Cloud enable a broad range of features to grow a company in an agile, flexible and cheap way. Thus, both business and IT objectives should drive the cloud transformation and be part of one global strategy.&lt;/p&gt;
+&lt;h4 id=&#34;contracts-between-the-participating-entities-of-the-cloud-ecosystem&#34;&gt;Contracts between the participating entities of the Cloud ecosystem&lt;/h4&gt;
+&lt;p&gt;A clear ruleset of policies and agreements that define the interaction between the stakeholders is essential for guaranteeing a healthy coexistence in the Cloud ecosystem.&lt;/p&gt;
+&lt;p&gt;The cloud ecosystem includes both external that internal stakeholders of the organization. Contracts provide clarity, responsibility, authority among stakeholders. So, it’s essential to have a work agreement among them. Fundamental is the service level agreement (SLA) for efficient use of the Cloud, especially for the high financial or another kind of impact and for this reason, should be formally declared.&lt;/p&gt;
+&lt;h4 id=&#34;adopt-well-defined-change-management-processes&#34;&gt;Adopt well-defined change management processes&lt;/h4&gt;
+&lt;p&gt;Change should be practised and applied consistently and standardized on all components of the company’s cloud ecosystem.&lt;/p&gt;
+&lt;p&gt;A Cloud ecosystem is composed of a vast component‘s network interconnected in which a single change to one of them can have an impact on all systems. This type of ecosystem needs a coherent operation model to better adapt to a different perspective. The lack of a well-defined change management process can compromise the end-to-end interoperability of the cloud ecosystem because of interruption derivated from unwanted change.&lt;/p&gt;
+&lt;h4 id=&#34;application-of-monitoring-processes-to-achieve-continuous-improvement&#34;&gt;Application of monitoring processes to achieve continuous improvement&lt;/h4&gt;
+&lt;p&gt;The cloud governance process must monitor events and key factors that can be determined by continuous improvement.
+Companies are always changing because of the market demand and by the evolution of company targets. Therefore, the Cloud computing process will always need continuous change for aligning to them.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Principles are fundamentals for all kinds of governance, not only for the Cloud. Principles can be different from company to company, and it&amp;rsquo;s fine, but the lack of any principles it&amp;rsquo;s not.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ISO/IEC 17788:2014: Information Technology – Cloud Computing – Overview and Vocabulary; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=605455&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=605455&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;ISO/IEC 17789:2014: Information Technology – Cloud Computing – Reference Architecture; (&lt;a href=&#34;http://www.iso.org/iso/catalogue_detail?csnumber=60545&#34;&gt;www.iso.org/iso/catalogue_detail?csnumber=60545&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;National Institute of Standards and Technology (Special Publication 500‐291)&lt;/li&gt;
+&lt;li&gt;The Open Group (&lt;a href=&#34;http://www.opengroup.org&#34;&gt;http://www.opengroup.org&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Fulton, Lita. Cloud Governance and Management Made Simple: Practical Step-by-Step Guide for Small and Mid-Sized Organizations&lt;/li&gt;
+&lt;/ul&gt;
+
+      </content:encoded>
+    </item>
+    
   </channel>
 </rss>
