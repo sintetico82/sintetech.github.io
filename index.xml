@@ -6,7 +6,16 @@
     <description>Recent content on sintetico tech blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Oct 2021 12:00:00 +0200</lastBuildDate><atom:link href="https://sintetech.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 15:29:08 +0100</lastBuildDate><atom:link href="https://sintetech.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Align Cloud services with business goals</title>
+      <link>https://sintetech.com/post/align-cloud-services-with-business-goals/</link>
+      <pubDate>Fri, 12 Nov 2021 15:29:08 +0100</pubDate>
+      
+      <guid>https://sintetech.com/post/align-cloud-services-with-business-goals/</guid>
+      <description>An important phase of cloud computing adoption it’s the alignment of Cloud services with business goals</description>
+    </item>
+    
     <item>
       <title>Introduction to Cloud Computing governance</title>
       <link>https://sintetech.com/post/introduction-to-cloud-computing-governance/</link>

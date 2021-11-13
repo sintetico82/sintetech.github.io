@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>digitaltransformation on sintetico tech blog</title>
+    <link>https://sintetech.com/tags/digitaltransformation/</link>
+    <description>Recent content in digitaltransformation on sintetico tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Nov 2021 15:29:08 +0100</lastBuildDate><atom:link href="https://sintetech.com/tags/digitaltransformation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Align Cloud services with business goals</title>
+      <link>https://sintetech.com/post/align-cloud-services-with-business-goals/</link>
+      <pubDate>Fri, 12 Nov 2021 15:29:08 +0100</pubDate>
+      
+      <guid>https://sintetech.com/post/align-cloud-services-with-business-goals/</guid>
+      <description>An important phase of cloud computing adoption it’s the alignment of Cloud services with business goals</description>
+    </item>
+    
+  </channel>
+</rss>
