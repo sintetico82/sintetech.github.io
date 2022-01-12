@@ -8,7 +8,103 @@
     <description>Recent content on sintetico tech blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Nov 2021 15:29:08 +0100</lastBuildDate><atom:link href="https://sintetech.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 12:40:36 +0100</lastBuildDate><atom:link href="https://sintetech.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Governance Management System</title>
+      <link>https://sintetech.com/post/cloud-governance-management-system/</link>
+      <pubDate>Mon, 10 Jan 2022 12:40:36 +0100</pubDate>
+      
+      <guid>https://sintetech.com/post/cloud-governance-management-system/</guid>
+      <category>cloud</category>
+      <category>governance</category>
+      <category>digitaltransformation</category>
+      <description>Cloud Governance Management System (CGMS) is an integrated system consistent with Cloud services and allow to reach Cloud objectives.</description>
+      <content:encoded>
+        &lt;p&gt;In this article, we will try to build a Cloud Governance Management System (CGMS), which is an integrated system consistent with Cloud services and allow to reach Cloud objectives.
+The main CGMS’s components are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Principles;&lt;/li&gt;
+&lt;li&gt;Reference models, policies, processes, procedures and tools;&lt;/li&gt;
+&lt;li&gt;Organizational structure, roles and responsibilities;&lt;/li&gt;
+&lt;li&gt;Monitoring and Key Performance Indicators (KPI).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We already discussed principles &lt;a href=&#34;https://sintetech.com/post/principles-cloud-computing-governance/&#34;&gt;principles&lt;/a&gt;, so let see more details about reference models, policies and processes.&lt;/p&gt;
+&lt;h2 id=&#34;reference-models-policies-processes-procedures-and-tools&#34;&gt;Reference models, policies, processes, procedures and tools&lt;/h2&gt;
+&lt;p&gt;Governance and management are activities based on processes. For creating a reference model we need to identify which are processes for the company that will use both for cloud governance than management.&lt;/p&gt;
+&lt;p&gt;For each Cloud principle, it is defined a relative governance’s process. The process and his name should represent what is needed to realize the principle. In this way, a map that identifies the IT processes to follow is constructed, based on cloud governance principles. Of course, principles and processes can be already present in the company, and nowadays there are many well-established standards like COBIT 5 and ISO/IEC 38500. While the IS/IEC 38500 standard only defines IT governance principles, the COBIT 5 framework also defines activities and processes.&lt;/p&gt;
+&lt;p&gt;So, we can use as a basis the COBIT 5 framework for processes. It subdivides the processes into two areas, governance and management. The two areas in total have 5 domains and 37 processes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Governance of Enterprise IT
+&lt;ul&gt;
+&lt;li&gt;Evaluate, Direct and Monitor (EDM) - 5 processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Management of Enterprise IT
+&lt;ul&gt;
+&lt;li&gt;Align, Plan and Organise (APO) - 13 processes;&lt;/li&gt;
+&lt;li&gt;Build, Acquire and Implement (BAI) - 10 processes;&lt;/li&gt;
+&lt;li&gt;Deliver, Service and Support (DSS) - 6 processes;&lt;/li&gt;
+&lt;li&gt;Monitor, Evaluate and Assess (MEA) - 3 processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If we consider the EDM area, we can make a link with Cloud services principles and the activities inside the EDM area. We define ti activities in Evaluate, Direct and Monitor area, associate processes to principles, and activity to processes.&lt;/p&gt;
+&lt;p&gt;for exemple:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://sintetech.com/post/cloud-governance-management-system/cloud_principles_processes_activities_COBIT_5_mapping.png#center&#34; alt=&#34;Cloud governance principles, processes and activities mapping with COBIT 5&#34;  title=&#34;Cloud governance principles, processes and activities mapping with COBIT 5&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Tools are extremely helpful for standardizing policies, processes and procedures. Using the right tools, the company can ensure the right execution of the processes. Of course, some tools can be “nice to have”, but other tools are mandatory for an effective CGMS. So, very important tools are a ticketing system to track and manage service requests and incidents, CMS to store documented processes and procedures, and collaboration tools to coordinate schedules and other shared information with Cloud service providers (CSPs) and stakeholders.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://sintetech.com/post/cloud-governance-management-system/CGMS.drawio.png#center&#34; alt=&#34;Example integrated Cloud Governance and Menagement reference model&#34;  title=&#34;Example integrated Cloud Governance and Menagement reference model&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In this example model principles is the main container, governance direct with plans and policies the management,  evaluate their proposals and monitoring management performance and conformance fo continual improvement.&lt;/p&gt;
+&lt;p&gt;Data, architecture and structure are a set of principles to support the privacy, confidentiality, availability, integrity and security of data on public and private clouds. Compliance and Risk Management are controls to manage, minimize and transfer risks.&lt;/p&gt;
+&lt;p&gt;Management contains management and operations activity, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud service provider management
+&lt;ul&gt;
+&lt;li&gt;Change management&lt;/li&gt;
+&lt;li&gt;Cloud vendor management&lt;/li&gt;
+&lt;li&gt;Monitoring and measurement&lt;/li&gt;
+&lt;li&gt;Service level management&lt;/li&gt;
+&lt;li&gt;Real-time alerting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Operations
+&lt;ul&gt;
+&lt;li&gt;Service management integration&lt;/li&gt;
+&lt;li&gt;Availability management&lt;/li&gt;
+&lt;li&gt;Capacity management and scalability&lt;/li&gt;
+&lt;li&gt;Business continuity and disaster recovery&lt;/li&gt;
+&lt;li&gt;Operations management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Finance management
+&lt;ul&gt;
+&lt;li&gt;Consumption model&lt;/li&gt;
+&lt;li&gt;Total cost ownership model&lt;/li&gt;
+&lt;li&gt;Benefits realization&lt;/li&gt;
+&lt;li&gt;Adoption costs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Security
+&lt;ul&gt;
+&lt;li&gt;Identity and access management&lt;/li&gt;
+&lt;li&gt;Data protection&lt;/li&gt;
+&lt;li&gt;Security operations&lt;/li&gt;
+&lt;li&gt;Platform security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tools support all areas (the icons are only an example of software tools to use, but of course, every company chooses their tools, both digital or physical like an old fashion paper).&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Cloud Governance Management System can be hard to create and maintain, also the amount of plans, policies, controls, people to govern and manage everything highly depends on the company nature and its principles and goals.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fulton, Lita. Cloud Governance and Management Made Simple: Practical Step-by-Step Guide for Small and Mid-Sized Organizations&lt;/li&gt;
+&lt;/ul&gt;
+
+      </content:encoded>
+    </item>
+    
     <item>
       <title>Align Cloud services with business goals</title>
       <link>https://sintetech.com/post/align-cloud-services-with-business-goals/</link>

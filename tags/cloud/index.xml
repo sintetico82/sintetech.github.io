@@ -6,7 +6,16 @@
     <description>Recent content in cloud on sintetico tech blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Nov 2021 15:29:08 +0100</lastBuildDate><atom:link href="https://sintetech.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 12:40:36 +0100</lastBuildDate><atom:link href="https://sintetech.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Governance Management System</title>
+      <link>https://sintetech.com/post/cloud-governance-management-system/</link>
+      <pubDate>Mon, 10 Jan 2022 12:40:36 +0100</pubDate>
+      
+      <guid>https://sintetech.com/post/cloud-governance-management-system/</guid>
+      <description>Cloud Governance Management System (CGMS) is an integrated system consistent with Cloud services and allow to reach Cloud objectives.</description>
+    </item>
+    
     <item>
       <title>Align Cloud services with business goals</title>
       <link>https://sintetech.com/post/align-cloud-services-with-business-goals/</link>
